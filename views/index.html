@@ -1,12 +1,16 @@
 {% extends "layout.html" %}
 
 {% block content %}
+	<div class="row">
 
-hello Alex, this is block content
+		<div class="main col-lg-9">
+		{% include "main.html" %}
+		</div>
 
-{% include "sidebar.html" %}
-{% include "main.html" %}
-
+		<div class="sidebar col-lg-3">
+		{% include "sidebar.html" %}
+		</div>
+	</div>
 {% endblock %}
 
 

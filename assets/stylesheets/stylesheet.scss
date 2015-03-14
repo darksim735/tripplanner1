@@ -2,28 +2,39 @@
 	margin-top: 50px;
 }
 
-
-
-
 .navbar {
 background-color: #736357;
 
-li {
-    color: #a8c9dd;
+	li {
+	    color: #a8c9dd;
+	}
 }
-
-}
-
 
 
 .navbar-brand {
-    
-   background-color:#64564c
-
-li{
-    color: #a8c9dd;
+   background-color:#64564c;
 }
 
+.sidebar {
+	float: left;
+	background-color: pink;
 }
 
+.main {
+	float: left;
+	background-color: yellow;
+}
 
+#map-canvas {
+		margin-top: 100px;
+        height: 100%;
+        padding: 0px;
+      }
+
+.itinerary {
+	background-color: red;
+}
+
+.selections {
+	background-color: green;
+}

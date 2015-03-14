@@ -16,6 +16,23 @@
     <!-- Custom CSS here -->
     <link href="/stylesheets/stylesheet.css" rel="stylesheet">
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1znXfGjWLLpz78vTo08EgSvgMHvQYmPs&sensor=true"></script>
+
+    <script>
+        var map;
+        function initialize() {
+          var mapOptions = {
+            zoom: 8,
+            center: new google.maps.LatLng(-34.397, 150.644)
+          };
+          map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
   </head>
 
   <body>
@@ -41,15 +58,16 @@
       </div>
     </nav>
 
-    <div class="custom-container">
-        <h1>Bootstrap starter template</h1>
-    
-        {% block content %}
-        {% endblock %}
+    <div class="container">
+      <div class="custom-container">
 
-        {% block sidebar %}
-        {% endblock %}
+          {% block content %}
+          {% endblock %}
 
+          {% block sidebar %}
+          {% endblock %}
+
+      </div>
     </div><!-- /.container -->
 
 
