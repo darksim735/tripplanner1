@@ -4,7 +4,8 @@ var db = require('../models/index');
 
 /* GET HOME PAGE */
 router.get('/', function(req, res, next) {
-	res.render('layout');
+	res.render('index');
 });
+
 
 module.exports = router;
