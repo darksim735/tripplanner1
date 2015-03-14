@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/darksim735/tripplanner1",
   "dependencies": {
+    "async": "^0.9.0",
     "body-parser": "^1.12.0",
     "express": "^4.12.2",
     "mongodb": "^1.4.34",
