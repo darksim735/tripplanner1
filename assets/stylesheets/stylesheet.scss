@@ -13,11 +13,12 @@ background-color: #736357;
 
 .navbar-brand {
    background-color:#64564c;
+   color: #a7c8dc;
 }
 
 .sidebar {
 	float: left;
-	background-color: pink;
+	background-color: #c1b5ad;
 }
 
 .main {
@@ -27,15 +28,60 @@ background-color: #736357;
 
 #map-canvas {
 		margin-top: 100px;
-        height: 200px;
-        width: 400px;
+        height: 50vh;
+        width: 100vh;
         padding: 0px;
       }
 
+.progbar {
+    margin-top: 50px;
+	padding-top: 2px;
+    border-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #736357;
+
+   font-family: ff-tisa-web-pro, serif;
+    font-size: 20px;
+li{
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+}
+
+
 .itinerary {
-	background-color: red;
+	border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #efecea;
+
+   font-family: ff-tisa-web-pro, serif;
+    font-size: 16px;
+li{
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+
+
 }
 
 .selections {
-	background-color: green;
+	background-color: #efecea;
+    border-radius: 5px;
+    font-family: ff-tisa-web-pro, serif;
+    font-size: 16px;
+li{
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 5%;
 }
+
+}
+
+
+
+
