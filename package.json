@@ -1,0 +1,25 @@
+{
+  "name": "tripplanner1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darksim735/tripplanner1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darksim735/tripplanner1/issues"
+  },
+  "homepage": "https://github.com/darksim735/tripplanner1",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.12.2",
+    "morgan": "^1.5.1",
+    "node-sass-middleware": "^0.5.0"
+  }
+}
