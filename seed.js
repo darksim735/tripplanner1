@@ -1,4 +1,4 @@
-= require('async');
+var async = require('async');
 var mongoose = require('mongoose');
 var models = require('./models');
 var Place = models.Place;
